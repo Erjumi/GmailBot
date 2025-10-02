@@ -1,0 +1,15 @@
+1. Start
+2. Load environment variables from credentials.env
+3. Authenticate with Gmail API using credentials.json
+4. If token.json does not exist:
+   - Prompt user to authorize via OAuth2
+   - Save token.json
+5. Search Gmail inbox for emails with subject containing "Neostella"
+6. For each matching email:
+   - Download attachments
+   - Save to folder: downloads/YYYY-MM-DD
+   - Modify labels:
+     - Remove INBOX (read in inbox)
+     - Add UNREAD
+7. Send confirmation email via Gmail API to CONFIRMATION_EMAIL
+8. End

@@ -1,0 +1,9 @@
+Authorize the GmailBot via OAuth2,so that it can securely access my inbox and process emails.
+
+The bot is able to search for emails with subject "Neostella",so that I can automatically retrieve relevant attachments.
+
+The bot can save attachments in a local folder, I can easily organize and locate files by day.
+
+I want the bot to mark processed emails as unread, so that I can still review them later.
+
+The bot can send a confirmation email after processing, so the stakeholder is notified when the automation completes successfully.
